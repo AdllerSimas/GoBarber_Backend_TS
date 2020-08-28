@@ -2,9 +2,13 @@ It's an API (GoBarber backend)
 
 Steps to run:
 
-1 - yarn
-2 - docker start redis, postgres and mongodb
-3 - yarn dev:server
+1 - install node_modules: "yarn"
+
+2 - Initialized docker ( Redis, PostgreSQL and Mongodb)
+
+3 - In .env choose STORAGE_DRIVER (s3 or disk) and choose MAIL_PROVIDER (ses or ethereal)
+
+4 - Run application with "yarn dev:server"
 
 # Recuperação de senha
 
