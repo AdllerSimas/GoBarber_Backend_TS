@@ -1,3 +1,11 @@
+It's an API (GoBarber backend)
+
+Steps to run:
+
+1 - yarn
+2 - docker start redis, postgres and mongodb
+3 - yarn dev:server
+
 # Recuperação de senha
 
 **RF** // funcionalidades para recuperar senha
